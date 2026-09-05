@@ -1,0 +1,20 @@
+[project]
+name = "tech-with-brylie"
+version = "0.1.0"
+description = "Visual explainers and practical experiments about AI, open-source tools, and software engineering."
+readme = "README.md"
+license = "Apache-2.0"
+authors = [
+    { name = "Brylie Christopher Oxley", email = "brylie@protonmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "manim>=0.21.0",
+]
+
+[project.scripts]
+tech-with-brylie = "tech_with_brylie:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"

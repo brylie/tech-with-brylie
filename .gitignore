@@ -1,0 +1,23 @@
+# Python and tooling
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+
+# Manim renders, TeX intermediates, and Voiceover cache
+media/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+mise.local.toml
+mise.*.local.toml
+
+# OS/editor files
+.DS_Store
